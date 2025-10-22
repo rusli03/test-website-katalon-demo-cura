@@ -33,6 +33,7 @@ WebUI.setText(findTestObject('Object Repository/logout/Page_CURA Healthcare Serv
 
 //WebUI.setEncryptedText(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/input_Password_txt-password'),
 //    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+
 WebUI.click(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/button_Password_btn-login'))
 
 WebUI.click(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))

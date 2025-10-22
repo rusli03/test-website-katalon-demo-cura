@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Tc_logout</name>
+   <name>Tc-login-valid</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>47e3558a-4622-4ef3-b1b6-37e5352fcc7a</testCaseGuid>
+   <testCaseGuid>6a479be8-e27f-431a-8368-b43f836964da</testCaseGuid>
 </TestCaseEntity>
