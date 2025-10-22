@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>%Applications%Katalon Studio Enterprise.app%Contents%MacOS%cd %Users%ruzly%git%test-website-katalon-demo-cura%test-website-katalon-demo-cura.prj</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-2427723451017404874.groovy</name>
+			<type>1</type>
+			<location>/var/folders/9_/bq13pkcn4y573g25w7j9m85r0000gp/T/Katalon/Web Services/kat-2427723451017404874.groovy</location>
+		</link>
+		<link>
+			<name>kat-6597105360248426323.groovy</name>
+			<type>1</type>
+			<location>/var/folders/9_/bq13pkcn4y573g25w7j9m85r0000gp/T/Katalon/Web Services/kat-6597105360248426323.groovy</location>
+		</link>
+		<link>
+			<name>kat-8519949578380148112.groovy</name>
+			<type>1</type>
+			<location>/var/folders/9_/bq13pkcn4y573g25w7j9m85r0000gp/T/Katalon/Web Services/kat-8519949578380148112.groovy</location>
+		</link>
+		<link>
+			<name>kat-8844791663302553966.groovy</name>
+			<type>1</type>
+			<location>/var/folders/9_/bq13pkcn4y573g25w7j9m85r0000gp/T/Katalon/Web Services/kat-8844791663302553966.groovy</location>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1761036154547</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1761036154551</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>

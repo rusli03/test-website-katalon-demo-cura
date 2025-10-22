@@ -1,0 +1,10 @@
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import internal.GlobalVariable as GlobalVariable
+
+def response = WS.sendRequest(findTestObject('API/getUserByName', [
+    ('username') : GlobalVariable.username
+]))
+
+WS.verifyResponseStatusCode(response, 200)
+WS.verifyElementPropertyValue(response, 'username', GlobalVariable.username)
