@@ -17,3 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+
+WebUI.click(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/a_We Care About Your Health_btn-make-appointment'))
+
+WebUI.click(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/input_Demo account_form-control'))
+
+WebUI.click(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/input_Demo account_form-control'))
+
+WebUI.setText(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/input_Username_txt-username'), 'John Doe')
+
+WebUI.setText(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/input_Password_txt-password'), 'ThisIsNotAPassword')
+
+//WebUI.setEncryptedText(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/input_Password_txt-password'),
+//    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.click(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/button_Password_btn-login'))
+
+WebUI.click(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+
+WebUI.click(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/a'))
+
+WebUI.click(findTestObject('Object Repository/logout/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+
+WebUI.closeBrowser()
